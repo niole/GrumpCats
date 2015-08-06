@@ -2,8 +2,8 @@
 /*global React*/
 
 var React = require('react');
-var Test = require('./Test.jsx');
+var GrumpPage = require('./GrumpPage.jsx');
 
-var App = React.render( <Test/>, $('#container')[0]);
+var App = React.render( <GrumpPage/>, $('#container')[0]);
 
 module.exports = App;
